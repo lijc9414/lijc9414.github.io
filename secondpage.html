@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+  <title>Opening</title>
+  <link rel="shortcut icon" href="quotestape.png">
+  <head>
+    <style>
+        body {
+          cursor: crosshair;
+          position: absolute;
+          color: #632202;
+          background-color:#f5f5dc;
+          text-shadow: 0px 0px 0px white;
+          width: 350px;
+          left: 60x;
+          top: 10px;
+          font-size: 60px;
+          font-family: Futura;
+          text-align: left;
+        }
+        #quote1 {
+          position: absolute;
+          color: #632202;
+          text-shadow: 0px 0px 0px white;
+          width: 200px;
+          left: 250px;
+          top: 90px;
+          font-size: 15px;
+          font-family: Helvetica;
+          text-align: left;
+          z-index: -4;
+        }
+        #quote2 {
+          position: absolute;
+          color: #632202;
+          text-shadow: 0px 0px 0px white;
+          width: 200px;
+          left: 800px;
+          top: 100px;
+          font-size: 15px;
+          font-family: Helvetica;
+          text-align: left;
+          z-index:-7
+        }
+
+        #quote3 {
+          position: absolute;
+          color: #632202;
+          text-shadow: 0px 0px 0px white;
+          width: 200px;
+          left: 600px;
+          top: 400px;
+          font-size: 15px;
+          font-family: Helvetica;
+          text-align: left;
+        }
+
+      img {
+          position: absolute;
+          left: 400px;
+          width: 800px;
+          opacity: .9;
+          border-radius: 0px 0px 0px 0px;
+      }
+        #quotestape {
+          position: fixed;
+          top:250px;
+          width: 300px;
+          left: 600px;
+          opacity: 1;
+          axis: -.3;
+        }
+        #quote1overlay {
+          position: absolute;
+          top:10px;
+          height: 500px;
+          width: 450px;
+          left: 80px;
+          opacity: 1;
+          axis: -.3;
+        }
+        #clickme2 {
+          position: absolute;
+          top:300px;
+          width: 200px;
+          left: 300px;
+          opacity: 1;
+          axis: -.3;
+        }
+        #quote1surprise {
+          display: none;
+          position: absolute;
+          top:10px;
+          height: 500px;
+          width: 450px;
+          left: 80px;
+          opacity: 1;
+          axis: -.3;
+          z-index: -3
+        }
+        #quote2overlay {
+          position: absolute;
+          top: -10px;
+          height: 350px;
+          width: 450px;
+          left: 650px;
+          opacity: 1;
+        }
+        #quote2surprise {
+          display: none;
+          position: absolute;
+          top:-20px;
+          height: 450px;
+          width: 400px;
+          left: 650px;
+          opacity: 1;
+          z-index: -4
+        }
+        #clickme3 {
+          position: fixed;
+          top:160px;
+          width: 200px;
+          left: 850px;
+          opacity: 1;
+        }
+        #quote3overlay {
+          position: absolute;
+          top: 300px;
+          height: 250px;
+          width: 250px;
+          left: 550px;
+          opacity: 0.95;
+        }
+        #quote3surprise {
+          display: none;
+          position: absolute;
+          top: 250px;
+          height: 450px;
+          width: 450px;
+          left: 550px;
+          opacity: 0.95;
+        }
+        #clickme4 {
+          position: fixed;
+          top:430px;
+          width: 200px;
+          left: 600px;
+          opacity: 1;
+        }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+          <script src="thirdpage.js"></script>
+  <body>
+    <div id=quote1>"My initial thoughts about what a title can do was to set mood and the prime <span id=core>underlying core of the film's story</span>, <br>to express the story in some metaphorical way.<br>
+      I saw the title as a way of conditioning the audience, <br>so that when the film actually began, viewers would already have an <span id=emotional>emotional resonance with it.</span><br></div>
+
+    <div id=quote2>"The most stimulating <span id=source>source for a solution</span> to a problem comes from the <span id=problem>problem itself."</span></div>
+
+    <div id=quote3> “<span id=design>Design</span> is thinking made <span id=visual>visual</span>”</div>
+
+    <img id=quotestape src= "quotestape.png">
+    <img id=clickme2 src= "clickme2.png">
+    <img id=clickme3 src= "clickme2_1.png">
+    <img id=clickme4 src= "clickme2_2.png">
+
+    <img id=quote1overlay src = "redtape_3.png">
+    <img id=quote2overlay src= "redtape_1.png">
+    <img id=quote3overlay src= "redtape_2.png">
+
+    <img id=quote1surprise src="SaulBassportrait1.png">
+    <img id=quote2surprise src="SaulBassportrait2.png">
+    <img id=quote3surprise src="SaulBassportrait3.png">
+
+  </body>
+</html>
