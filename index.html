@@ -5,8 +5,9 @@
     <link rel="shortcut icon" href="GoldenArmicon.png">
     <style>
       body {
-        background-image: url("backgroundindex.jpg");
+        background-image: url("backgroundindex.jpg"), url("Overlay.png");
         background-size: cover;
+        background-blend-mode: multiply;
         background-attachment: initial;
         cursor: crosshair;
         position: absolute;
@@ -98,6 +99,7 @@
         text-shadow: 5px 5px 5px grey;
         z-index:10px;
       }
+
       img {
           position: absolute;
           top: 0px;
@@ -106,11 +108,17 @@
           opacity: .9;
           border-radius: 0px 0px 0px 0px;
       }
+      #overlay1{
+          width: 300px;
+          position: absolute;
+          opacity: .4;
+          z-index:0;
+      }
       #clickme1
       {
           position: absolute;
           top: -100px;
-          left: 350px;
+          left: 330px;
           width: 300px;
           opacity: .95;
           border-radius: 0px 0px 0px 0px;
@@ -193,47 +201,28 @@
           border-radius: 0px 0px 0px 0px;
           z-index:3;
       }
-      #redtape_2{
-          position: absolute;
-          color: #ffab00;
-          top: 200px;
-          left: 100px;
-          width: 150px;
-          opacity: 0.8;
-          border-radius: 0px 0px 0px 0px;
-          transform: rotate(-20deg);
-          z-index:10;
-      }
-      #redtape_3{
-          position: absolute;
-          top: 250px;
-          width: 150px;
-          left: 900px;
-          border-radius: 0px 0px 0px 0px;
-          transform: rotate(-20deg);
-          z-index:-4;
-      }
       iframe {
           position: absolute;
-          width: 150px;
-          height:150px;
+          width: 100px;
+          height:100px;
           top: 250px;
-          left: 100px;
+          left: 500px;
           border-radius: 150px 150px 150px 150px;
-          z-index: 7;
+          z-index: 0;
       }
       audio {
           position: absolute;
           width: 200px;
-          top: 300px;
-          left: 900px;
+          top: 100px;
+          left: 450px;
           z-index: 20;
+          box-shadow: 2px 2px 2px 2px black;
         transform: rotate(20deg);
       }
     </style>
   <body>
 
-    <div id=indexinfo1> A website that is all about the designer Saul Bass.
+    <div id=indexinfo1> //A website that is all about the designer Saul Bass.
 
 <a href="https://nexusstudios.com/work/catch-me-if-you-can/">
   <img id=majorphoto_1 src="Murder.jpg"> </a>
@@ -249,8 +238,6 @@
 
   <img id=clickme1 src = "clickme1.png">
   <img id=tape_1 src = "tape1.png">
-  <img id=redtape_2 src= "redtape_2.png">
-  <img id=redtape_3 src = "redtape_3.png">
 
   <iframe src= "https://www.youtube.com/embed/QuoixQI7_Tw"></iframe>
   <audio controls src=saulbassaudio.mp3>
