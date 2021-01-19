@@ -5,7 +5,9 @@
   <head>
     <style>
         body {
-          background-image: url("backgroundposter.jpg"), url("Overlay.png");
+          background-image: url("Opening.gif");
+          background-repeat: repeat-y;
+          position: absolute;
           background-blend-mode: multiply;
           background-size: cover;
           color: #632202;
@@ -18,12 +20,26 @@
           text-align: left;
           z-index:-10;
         }
+        #backgroundtext {
+        position: absolute;
+        top:300px;
+        width: 500px;
+        color: white;
+        text-shadow: 5px 5px 5px white;
+        left: 900px;
+        font-size: 20px;
+        transform: rotate(90deg);
+        opacity: 0.5;
+        z-index: -7;
+      }
         #SaulBass {
           position: fixed;
           border: 10px #63220;
           top:100px;
           height: 600px;
           width: 200px;
+          color: white;
+          text-shadow: 5px 5px 5px white;
           left: 900px;
           font-size: 100px;
           opacity: 1;
@@ -35,7 +51,7 @@
           height: 600px;
           width: 200px;
           left: 80px;
-          font-family: Helvetica;
+          font-family: Courier;
           font-size: 16px;
           opacity: 1;
           z-index:-3;
@@ -47,20 +63,22 @@
           height: 600px;
           width: 200px;
           left: 300px;
+          font-family: Courier;
           font-size: 16px;
           opacity: 1;
-          z-index:-1;
+          z-index:-3;
         }
         #infoforposter2 {
           position: absolute;
           border: 10px #63220;
-          top: -150px;
+          top: -50px;
           height: 600px;
           width: 150px;
           left: 300px;
+          font-family: Courier;
           font-size: 16px;
           opacity: 1;
-          z-index:-2;
+          z-index:-3;
         }
       img {
           position: fixed;
@@ -118,7 +136,7 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
             <script src="fifthpage.js"></script>
   </head>
-
+    <div id=backgroundtext> Being inspired by someone that is// conservative//where would I go to//need to find//make sure//designer//i Want</div>
     <div id=SaulBass> SAUL BASS
     <div id=infoforposter1> "The Vertigo movie poster that’s become a landmark in graphic design and cinema history is the one sheet poster.<br>
       <br>Bass also designed other posters, each with a slightly different design, to match the proportions of the sheet they were printed on.
@@ -126,7 +144,7 @@
     <div id=infoforposter3> The poster evokes a sinister atmosphere with its economical use of colour and with letters that grow fainter,<br> reflecting the notion of disappearance.<br> Text and image both tell the same story.<br>
        The film’s themes of concealing and revealing are subtly incorporated into the poster.
 
-    <div id=infoforposter2> “In the one-sheet poster and album cover, Saul set the symbol against a joyously colored mosaic reminiscent of the stained-glass windows of medieval cathedrals,<br> and suggesting the sanctiﬁcation to come.
+    <div id=infoforposter2> “In the one-sheet poster and album cover, Saul set the symbol against a joyously colored mosaic reminiscent of the stained-glass windows of medieval cathedrals,<br> and suggesting the sanctiﬁcation to come.</div>
 
     <img id=poster1 src = "vertigoposter.jpg">
     <img id=poster2 src= "saintjoanposter.jpg">
