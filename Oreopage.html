@@ -62,6 +62,25 @@
           border-radius: 0px 0px 0px 0px;
           z-index: 1px;
       }
+      #oreodraggable {
+            position: absolute;
+            top: 10vh;
+            left: 50vw;
+            width: 20vw;
+            opacity: .9;
+            border-radius: 0px 0px 0px 0px;
+            z-index: 5px;
+      }
+      #crumbs {
+            display:none;
+            position: absolute;
+            top: 10vh;
+            left: 50vw;
+            width: 20vw;
+            opacity: .9;
+            border-radius: 0px 0px 0px 0px;
+            z-index: 5px;
+      }
       video {
         display: flex;
           position: absolute;
@@ -78,11 +97,14 @@
             <script src="nudejs.js"></script>
   <body>
     <div id=indexinfo1> <br></div>
-    <div id=bar1> <br>+++<br></div>
-    <div id=bar2> <br>The switch to day and night becomes hard within remote learning. I now sleep at day and work at night. At first, this switch of night and day seems hard. However, after I managed to switch up my circadian rhythm, I am finally able to sleep. Sleep, though undervalued at RISD, is an important feature of life to keep an active workflow. </div>
+    <div id=bar1> <br>+++Jan 17. 2021<br></div>
+    <div id=bar2> <br>The harsh contrast between day and night, like  <span id=blackandwhite>black and white</span>, blend together. The switch between day and night becomes hard within <span id=remote>remote learning</span>. I now sleep at day and work at night. After weeks of feeling dizzy and lightheaded, I switched my circadian rhythm to EST.  Finally, I sleep through the day, hoping for the day I can sleep again back to KST again. 
+ </div>
 
     <a href="index.html">
       <img id=iconopen src="icontoheader.png"></img></a>
+      <img id=oreodraggable src="oreopocky.png"></img></a>
+      <img id=crumbs src="crumbs.png"></img></a>
 
   <video controls autoplay loop>
       <source src="Recording_oreo.mov">

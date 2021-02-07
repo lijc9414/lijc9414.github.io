@@ -61,6 +61,25 @@
           border-radius: 0px 0px 0px 0px;
           z-index: 1px;
       }
+      #strawberrydraggable {
+            position: absolute;
+            top: 10vh;
+            left: 52.5vw;
+            width: 15vw;
+            opacity: .9;
+            border-radius: 0px 0px 0px 0px;
+            z-index: 5px;
+      }
+      #crumbs {
+            display:none;
+            position: absolute;
+            top: 10vh;
+            left: 50vw;
+            width: 20vw;
+            opacity: .9;
+            border-radius: 0px 0px 0px 0px;
+            z-index: 5px;
+      }
       video {
         display: flex;
           position: absolute;
@@ -78,11 +97,13 @@
   <body>
     <body>
       <div id=indexinfo1> <br></div>
-      <div id=bar1> <br>+++<br></div>
-      <div id=bar2> Today, I was able to have a short rest. I would be reading a book, listening to some music. Mainly, I would wat re-runs of a Korean TV show called “Infinite Challenge”. A sudden switch to turn off my worries, I day dream off. </div>
+      <div id=bar1> <br>+++ Sept 20. 2020<br></div>
+      <div id=bar2> Looking at the warm tanned sunset through my window, I turned on my <span id=earphones>earphones</span>.Finally, I was done with all my work for the upcoming Spatial Dynamics session. Picking up Language’s Temperature, I sat down on my bed, soothing my senses down. A sudden switch to turn off my worries, I <span id=daydream>day dream off</span>.</div>
 
     <a href="index.html">
       <img id=iconopen src="icontoheader.png"></img></a>
+      <img id=strawberrydraggable src="strawberry.png"></img>
+      <img id=crumbs src="crumbs.png"></img></a>
 
     <video controls autoplay loop>
           <source src="Recording_strawberry.mov" id="strawberryvideo">

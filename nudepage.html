@@ -4,7 +4,7 @@
     <title> n u d e </title>
     <style>
       body {
-        background-image: url("Nudepagebg.jpg");
+        background-image: url("NudePocky_page.png");
         background-size: cover;
         background-attachment: initial;
         position: absolute;
@@ -62,6 +62,25 @@
           border-radius: 0px 0px 0px 0px;
           z-index: 1px;
       }
+      #nudedraggable {
+            position: absolute;
+            top: 10vh;
+            left: 52.5vw;
+            width: 15vw;
+            opacity: .9;
+            border-radius: 0px 0px 0px 0px;
+            z-index: 5px;
+      }
+      #crumbs {
+            display:none;
+            position: absolute;
+            top: 10vh;
+            left: 50vw;
+            width: 20vw;
+            opacity: .9;
+            border-radius: 0px 0px 0px 0px;
+            z-index: 5px;
+      }
       video {
         display: flex;
           position: absolute;
@@ -78,11 +97,13 @@
             <script src="nudejs.js"></script>
   <body>
     <div id=indexinfo1> <br></div>
-    <div id=bar1> <br>+++<br></div>
-    <div id=bar2> <br>Being so tired, I drank three cups of coffee today. Reading papers, searching for articles, and drawing for foundations drained the energy out of me. I search for some snacks. Rather than a special tasting pepero, I gravitated towards my favorite flavor-- chocolate filled. A simple straight-forward chocolate goodness calms my mind from all the complicated mutli-task mess I had. </div>
+    <div id=bar1> <br>+++Dec 5. 2020<br></div>
+    <div id=bar2> <br>Reading papers, searching for articles, and drawing for foundations drained the energy out of me. I quickly search for a snack, hoping to consolidate my <span id=tired>tired</span> soul. Out of all the pocky flavors, I gravitated towards my favorite flavor-- chocolate filled. <spa id=straight>Simple straight-forward, the chocolate goodness</span>  calms my mind from all the complicated multi-task mess I had. </div>
 
     <a href="index.html">
       <img id=iconopen src="icontoheader.png"></img></a>
+      <img id=nudedraggable src="nudepocky.png"></img></a>
+      <img id=crumbs src="crumbs.png"></img></a>
 
   <video controls autoplay loop>
       <source src="Recording_nude.mov">
