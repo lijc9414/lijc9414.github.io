@@ -21,40 +21,54 @@
         color: grey;
         text-shadow: 0px 0px 0px white;
         width: 350px;
-        left: 600px;
-        top: 110px;
+        left: 65vw;
+        top: 20vh;
         font-size: 18px;
         font-family: Sukhumvit Set;
-        text-align: center;
+        text-align: left;
       }
       #bar2 {
         display: none;
         position: absolute;
         color: grey;
         text-shadow: 0px 0px 0px grey;
-        width: 300px;
-        left: 750px;
-        top: 150px;
+        width: 20vw;
+        left: 65vw;
+        top: 30vh;
         font-size: 15px;
         font-family: Sukhumvit Set;
         text-align: left;
       }
-
+      p {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 100px;
+      margin-left: 100px;
+    }
       img {
           position: absolute;
-          top: 0px;
+          top: 10px;
           left: 0px;
           width:0px;
           opacity: .9;
           border-radius: 0px 0px 0px 0px;
       }
-      video {
+      #iconopen {
           position: absolute;
-          border-radius: 200px;
+          top: 5vh;
+          left: 5vw;
+          width: 50px;
+          opacity: .9;
+          border-radius: 0px 0px 0px 0px;
+          z-index: 1px;
+      }
+      video {
+        display: flex;
+          position: absolute;
+          border-radius: 50%;
           width: 300px;
-          height: 300px;
-          top: 125px;
-          left: 75px;
+          top: 20vh;
+          left: 30px;
           z-index: -5px;
       }
 
@@ -66,6 +80,9 @@
     <div id=indexinfo1> <br></div>
     <div id=bar1> <br>+++<br></div>
     <div id=bar2> <br>The switch to day and night becomes hard within remote learning. I now sleep at day and work at night. At first, this switch of night and day seems hard. However, after I managed to switch up my circadian rhythm, I am finally able to sleep. Sleep, though undervalued at RISD, is an important feature of life to keep an active workflow. </div>
+
+    <a href="index.html">
+      <img id=iconopen src="icontoheader.png"></img></a>
 
   <video controls autoplay loop>
       <source src="Recording_oreo.mov">
