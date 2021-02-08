@@ -5,8 +5,8 @@
     <style>
       body {
         background-image: url("Oreeo_page.jpg");
+        background-attachment: fixed;
         background-size: cover;
-        background-attachment: initial;
         position: absolute;
         text-shadow: 0px 0px 0px white;
         width: 350px;
@@ -81,6 +81,14 @@
             border-radius: 0px 0px 0px 0px;
             z-index: 5px;
       }
+      #notes {
+            position: absolute;
+            top: 25vh;
+            left: 47.5vw;
+            width: 7vw;
+            opacity: .7;
+            border-radius: 0px 0px 0px 0px;
+      }
       video {
         display: flex;
           position: absolute;
@@ -98,13 +106,16 @@
   <body>
     <div id=indexinfo1> <br></div>
     <div id=bar1> <br>+++Jan 17. 2021<br></div>
-    <div id=bar2> <br>The harsh contrast between day and night, like  <span id=blackandwhite>black and white</span>, blend together. The switch between day and night becomes hard within <span id=remote>remote learning</span>. I now sleep at day and work at night. After weeks of feeling dizzy and lightheaded, I switched my circadian rhythm to EST.  Finally, I sleep through the day, hoping for the day I can sleep again back to KST again. 
+    <div id=bar2> <br>The harsh contrast between day and night, like  <span id=blackandwhite>black and white</span>, blend together. The switch between day and night becomes hard within <span id=remote>remote learning</span>. I now sleep at day and work at night. After weeks of feeling dizzy and lightheaded, I switched my circadian rhythm to EST.  Finally, I sleep through the day, hoping for the day I can sleep again back to KST again.
  </div>
 
     <a href="index.html">
       <img id=iconopen src="icontoheader.png"></img></a>
       <img id=oreodraggable src="oreopocky.png"></img></a>
       <img id=crumbs src="crumbs.png"></img></a>
+
+    <a href="oreoform.html">
+      <img id=notes src="notes.png"></img></a>
 
   <video controls autoplay loop>
       <source src="Recording_oreo.mov">

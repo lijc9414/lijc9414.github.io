@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: Sukhumvit Set;
+  color: white;
+  background-color: #f4f2f5;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  font: Sukhumvit Set;
+  border: 0px solid #f4f2f5;
+  border-radius: 20px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  font: Sukhumvit Set;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #f68c96;
+  color: white;
+  font: Sukhumvit Set;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  font: Sukhumvit Set;
+  background-color: #f68c94;
+}
+
+.container {
+  border-radius: 50px;
+  font: Sukhumvit Set;
+  background-color: #f68c96;
+  padding: 20px;
+}
+
+.col-25 {
+  font: Sukhumvit Set;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  font: Sukhumvit Set;
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  font: Sukhumvit Set;
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    font: Sukhumvit Set;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>stawberry form</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Username</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">What do you find comforting during remote learning?</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="???">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Story?</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
