@@ -15,6 +15,7 @@
         font-family: Futura;
         text-align: left;
       }
+
       #bar1 {
         position: absolute;
         color: grey;
@@ -97,6 +98,24 @@
           left: 30px;
           z-index: -5px;
       }
+      .div1 {
+          width: 10px;
+          height: 10px;
+          padding: 10px;
+          border-radius: 100%;
+          color: #f4f2f5;
+          animation-iteration-count: infinite;
+          animation-name: example;
+          animation-duration: 10s;
+          z-index: -4;
+          box-sizing: border-box;
+        }
+
+          @keyframes example {
+            0%   {background-color:  #f4f2f5;}
+            25%  {background-color: #f68c96;}
+            50%  {background-color: #e3c0be;}
+          }
 
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -119,6 +138,9 @@
     <video controls autoplay loop>
           <source src="Recording_strawberry.mov" id="strawberryvideo">
         </video>
+
+    <div></div>
+
   </body>
 
 

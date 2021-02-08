@@ -31,6 +31,10 @@ $("#oreodraggable").click(function(){
         $("#oreodraggable").hide();
         $("#crumbs").show();
         });
+$("#oreodraggable2").click(function(){
+        $("#oreodraggable1").hide();
+        $("#crumbs").show();
+        });
 
 $("#earphones").hover(function(){
          $("#daydream").css("color", "pink");

@@ -17,8 +17,42 @@ body{
   bottom: 60vh;
   font-size: 18px;
   font-family: Sukhumvit Set;
+  color: #5b5465;
   text-align: center;
+  animation-iteration-count: infinite;
+  animation-name: example;
+  animation-duration: 15s;
+  z-index: -4;
 }
+@keyframes example {
+  0%   {background-color:  #f4f2f5;}
+  50%  {background-color: #5b5465;}
+  100%  {background-color: #f4f2f5;}
+}
+  #sub{
+    bottom: 60vh;
+    font-size: 18px;
+    font-family: Sukhumvit Set;
+    color: #5b5465;
+    left: 20vw;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 15s;
+    z-index: -4;
+  }
+  #appear{
+    bottom: 60vh;
+    font-size: 18px;
+    font-family: Sukhumvit Set;
+    color: #f4f2f5;
+    left: 70vw;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 15s;
+    z-index: -4;
+  }
 
 #div1 {
   transition-timing-function: ease;
@@ -63,7 +97,8 @@ img {
 }
 </style>
 </head>
-<body> three stages of remote learning
+<body> <div id =sub>three stages of remote learning</div>
+  <div id =appear> a transition of day and night</div>
 
 <a href="strawberrypage.html">
   <div id="div1"></div><br>
