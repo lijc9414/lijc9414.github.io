@@ -16,6 +16,10 @@ $("#strawberrydraggable").click(function(){
         $("#crumbs").show();
         });
 
+$("#strawberrydraggable").hover(function(){
+        $("#eatme").show();
+        });
+
 $("#nudedraggable").draggable();
 $("#crumbs").draggable();
 
@@ -24,6 +28,10 @@ $("#nudedraggable").click(function(){
         $("#crumbs").show();
         });
 
+$("#nudedraggable").hover(function(){
+        $("#eatme").show();
+          });
+
 $("#oreodraggable").draggable();
 $("#crumbs").draggable();
 
@@ -31,9 +39,9 @@ $("#oreodraggable").click(function(){
         $("#oreodraggable").hide();
         $("#crumbs").show();
         });
-$("#oreodraggable2").click(function(){
-        $("#oreodraggable1").hide();
-        $("#crumbs").show();
+
+$("#oreodraggable").hover(function(){
+        $("#eatme").show();
         });
 
 $("#earphones").hover(function(){

@@ -2,6 +2,7 @@
 <html>
   <head>
     <title> n u d e </title>
+    <link rel="shortcut icon" href="logo_nude.png">
     <style>
       body {
         background-image: url("NudePocky_page.png");
@@ -38,6 +39,20 @@
         font-size: 15px;
         font-family: Sukhumvit Set;
         text-align: left;
+      }
+      #eatme {
+        display: none;
+        position: absolute;
+        color: grey;
+        text-shadow: 0px 0px 0px grey;
+        width: 4vw;
+        left: 57.5vw;
+        top: 65vh;
+        font-size: 15px;
+        border-bottom: 1px dotted black;
+        font-family: Sukhumvit Set;
+        text-align:center;
+        z-index: 3;
       }
       p {
       margin-top: 100px;
@@ -89,6 +104,10 @@
             opacity: .7;
             border-radius: 0px 0px 0px 0px;
       }
+      #notes:hover {
+          transition: 1.50s;
+          transform: rotateY(360deg);
+        }
       video {
         display: flex;
           position: absolute;
@@ -106,6 +125,7 @@
   <body>
     <div id=indexinfo1> <br></div>
     <div id=bar1> <br>+++Dec 5. 2020<br></div>
+    <div id=eatme> eat me! <br></div>
     <div id=bar2> <br>Reading papers, searching for articles, and drawing for foundations drained the energy out of me. I quickly search for a snack, hoping to consolidate my <span id=tired>tired</span> soul. Out of all the pocky flavors, I gravitated towards my favorite flavor-- chocolate filled. <spa id=straight>Simple straight-forward, the chocolate goodness</span>  calms my mind from all the complicated multi-task mess I had. </div>
 
     <a href="index.html">
@@ -115,6 +135,7 @@
 
     <a href="nudeform.html">
       <img id=notes src="notes.png"></img></a>
+
 
   <video controls autoplay loop>
       <source src="Recording_nude.mov">

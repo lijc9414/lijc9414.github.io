@@ -2,6 +2,7 @@
 <html>
   <head>
     <title> s t r a w b e r r y </title>
+    <link rel="shortcut icon" href="logo_straw.png">
     <style>
       body {
         background-image: url("StrawberryPocky_page.jpg");
@@ -38,6 +39,20 @@
         font-size: 15px;
         font-family: Sukhumvit Set;
         text-align: left;
+      }
+      #eatme {
+        display: none;
+        position: absolute;
+        color: grey;
+        text-shadow: 0px 0px 0px grey;
+        width: 4vw;
+        left: 59vw;
+        top: 65vh;
+        font-size: 15px;
+        border-bottom: 1px dotted black;
+        font-family: Sukhumvit Set;
+        text-align:center;
+        z-index: 3;
       }
       p {
       margin-top: 100px;
@@ -89,6 +104,10 @@
             opacity: .7;
             border-radius: 0px 0px 0px 0px;
       }
+      #notes:hover {
+          transition: 1.50s;
+          transform: rotateY(360deg);
+        }
       video {
         display: flex;
           position: absolute;
@@ -124,6 +143,7 @@
   <body>
     <body>
       <div id=indexinfo1> <br></div>
+      <div id=eatme> eat me! <br></div>
       <div id=bar1> <br>+++ Sept 20. 2020<br></div>
       <div id=bar2> Looking at the warm tanned sunset through my window, I turned on my <span id=earphones>earphones</span>.Finally, I was done with all my work for the upcoming Spatial Dynamics session. Picking up Language’s Temperature, I sat down on my bed, soothing my senses down. A sudden switch to turn off my worries, I <span id=daydream>day dream off</span>.</div>
 

@@ -16,4 +16,12 @@ $("#coveroreo").draggable();
 
 $("#covermatcha").draggable();
 
+$("#chococover").draggable();
+
+$("#matchacover").draggable();
+
+$("#caramelcover").draggable();
+
+$("#strawcover").draggable();
+
   })
